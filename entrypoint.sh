@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "Hello World from GHCR"
+echo "Hello World Lab2"
