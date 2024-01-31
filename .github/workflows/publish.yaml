@@ -9,5 +9,5 @@ jobs:
       - name: Build and push the image
         run:  |
           docker login --username teeraxko --password ${{secrets.GH_PAT}} ghcr.io
-          docker build . --tag ghcr.io/teeraxko/hello-world-ghcr:latest
-          docker push ghcr.io/teeraxko/hello-world-ghcr:latest
+          docker build . --tag ghcr.io/kaiwanpo/hello-world-ghcr:latest
+          docker push ghcr.io/kaiwanpo/hello-world-ghcr:latest
